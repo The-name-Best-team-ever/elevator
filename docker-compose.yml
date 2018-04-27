@@ -1,0 +1,11 @@
+version: '2'
+services:
+
+    php:
+        restart: always
+        build:
+            context: docker/php7-fpm
+            args:
+                TIMEZONE: Europe/Kiev
+        volumes:
+            - .:/var/www/

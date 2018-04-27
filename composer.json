@@ -1,0 +1,18 @@
+{
+    "name": "Elevator",
+    "description": "",
+    "keywords": [],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Elevator\\" : "src/"
+        }
+    },
+    "scripts": {
+    }
+}
