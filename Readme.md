@@ -1,4 +1,4 @@
-### ELevator
+# ELevator
 
 ## Requirements:
     Docker
@@ -34,5 +34,6 @@ and `2` - is the floor where you want to go
 
 #### NOTE:
 Not all functional are implemented yet
+
 No phpunit implemented yet
 No YML diagram implemented yet
